@@ -45,31 +45,10 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#events">Events</a></li>
-                    <li><a href="#chefs">Chefs</a></li>
-                    <li><a href="#gallery">Gallery</a></li>
-                    <li class="dropdown"><a href="#"><span>Drop Down</span> <i
-                                class="bi bi-chevron-down dropdown-indicator"></i></a>
-                        <ul>
-                            <li><a href="#">Drop Down 1</a></li>
-                            <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i
-                                        class="bi bi-chevron-down dropdown-indicator"></i></a>
-                                <ul>
-                                    <li><a href="#">Deep Drop Down 1</a></li>
-                                    <li><a href="#">Deep Drop Down 2</a></li>
-                                    <li><a href="#">Deep Drop Down 3</a></li>
-                                    <li><a href="#">Deep Drop Down 4</a></li>
-                                    <li><a href="#">Deep Drop Down 5</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="#">Drop Down 2</a></li>
-                            <li><a href="#">Drop Down 3</a></li>
-                            <li><a href="#">Drop Down 4</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Products</a></li>
+                    <li><a href="#events">Awards</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </nav><!-- .navbar -->
 
@@ -1062,9 +1041,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <iframe style="border:0; width: 100%; height: 350px;"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                        frameborder="0" allowfullscreen></iframe>
+                    <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15848.861876564595!2d110.7511359!3d-6.7435525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e70dd2853d24ce3%3A0xcc431ad8ecb78c1e!2sPT.%20TBZ%20Industrial%20Indonesia!5e0!3m2!1sen!2sid!4v1684813950597!5m2!1sen!2sid" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div><!-- End Google Maps -->
 
                 <div class="row gy-4">
