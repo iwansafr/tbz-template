@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>TBZ - Index</title>
+    <title>TBZ INDUSTRIAL INDONESIA- Index</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -65,11 +65,10 @@
             <div class="row justify-content-between gy-5">
                 <div
                     class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-center text-lg-start">
-                    <h2 data-aos="fade-up">Enjoy Your Healthy<br>Delicious Food</h2>
-                    <p data-aos="fade-up" data-aos-delay="100">Sed autem laudantium dolores. Voluptatem itaque ea
-                        consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+                    <h2 data-aos="fade-up">Providing<br>Creativity</h2>
+                    <p data-aos="fade-up" data-aos-delay="100">PT TBZ INDUSTRIAL INDONESIA</p>
                     <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-                        <a href="#book-a-table" class="btn-book-a-table">Book a Table</a>
+                        <a href="product.php" class="btn-book-a-table">Our Product</a>
                         <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
                             class="glightbox btn-watch-video d-flex align-items-center"><i
                                 class="bi bi-play-circle"></i><span>Watch Video</span></a>
