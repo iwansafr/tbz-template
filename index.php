@@ -10,8 +10,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="/templates/yummy/assets/img/favicon.png" rel="icon">
-    <link href="/templates/yummy/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/favicon.png" rel="icon">
+    <link href="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,14 +21,14 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="/templates/yummy/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/templates/yummy/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-    <link href="/templates/yummy/assets/vendor/aos/aos.css" rel="stylesheet">
-    <link href="/templates/yummy/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="/templates/yummy/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="/templates/yummy/assets/css/main.css" rel="stylesheet">
+    <link href="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/css/main.css" rel="stylesheet">
 </head>
 
 <body>
@@ -38,7 +38,7 @@
 
             <a href="index.php" class="logo d-flex align-items-center me-auto me-lg-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
-                <!-- <img src="/templates/yummy/assets/img/logo.png" alt=""> -->
+                <!-- <img src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/logo.png" alt=""> -->
                 <h1>TBZ<span>.</span></h1>
             </a>
 
@@ -76,7 +76,7 @@
                     </div>
                 </div>
                 <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-                    <img src="/templates/yummy/assets/img/hero-img.png" class="img-fluid" alt=""
+                    <img src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/hero-img.png" class="img-fluid" alt=""
                         data-aos="zoom-out" data-aos-delay="300">
                 </div>
             </div>
@@ -96,7 +96,7 @@
 
                 <div class="row gy-4">
                     <div class="col-lg-7 position-relative about-img"
-                        style="background-image: url(/templates/yummy/assets/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+                        style="background-image: url(<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
                         <div class="call-us position-absolute">
                             <h4>Book a Table</h4>
                             <p>+1 5589 55488 55</p>
@@ -126,7 +126,7 @@
                             </p>
 
                             <div class="position-relative mt-4">
-                                <img src="/templates/yummy/assets/img/about-2.jpg" class="img-fluid" alt="">
+                                <img src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/about-2.jpg" class="img-fluid" alt="">
                                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
                             </div>
                         </div>
@@ -287,7 +287,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-1.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-1.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Magnam Tiste</h4>
                                 <p class="ingredients">
@@ -300,7 +300,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-2.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-2.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Aut Luia</h4>
                                 <p class="ingredients">
@@ -313,7 +313,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-3.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-3.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Est Eligendi</h4>
                                 <p class="ingredients">
@@ -326,7 +326,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-4.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-4.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
                                 <p class="ingredients">
@@ -339,7 +339,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-5.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-5.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
                                 <p class="ingredients">
@@ -352,7 +352,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-6.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-6.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Laboriosam Direva</h4>
                                 <p class="ingredients">
@@ -377,7 +377,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-1.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-1.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Magnam Tiste</h4>
                                 <p class="ingredients">
@@ -390,7 +390,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-2.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-2.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Aut Luia</h4>
                                 <p class="ingredients">
@@ -403,7 +403,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-3.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-3.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Est Eligendi</h4>
                                 <p class="ingredients">
@@ -416,7 +416,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-4.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-4.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
                                 <p class="ingredients">
@@ -429,7 +429,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-5.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-5.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
                                 <p class="ingredients">
@@ -442,7 +442,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-6.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-6.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Laboriosam Direva</h4>
                                 <p class="ingredients">
@@ -467,7 +467,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-1.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-1.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Magnam Tiste</h4>
                                 <p class="ingredients">
@@ -480,7 +480,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-2.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-2.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Aut Luia</h4>
                                 <p class="ingredients">
@@ -493,7 +493,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-3.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-3.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Est Eligendi</h4>
                                 <p class="ingredients">
@@ -506,7 +506,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-4.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-4.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
                                 <p class="ingredients">
@@ -519,7 +519,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-5.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-5.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
                                 <p class="ingredients">
@@ -532,7 +532,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-6.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-6.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Laboriosam Direva</h4>
                                 <p class="ingredients">
@@ -557,7 +557,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-1.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-1.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Magnam Tiste</h4>
                                 <p class="ingredients">
@@ -570,7 +570,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-2.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-2.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Aut Luia</h4>
                                 <p class="ingredients">
@@ -583,7 +583,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-3.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-3.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Est Eligendi</h4>
                                 <p class="ingredients">
@@ -596,7 +596,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-4.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-4.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
                                 <p class="ingredients">
@@ -609,7 +609,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-5.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-5.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
                                 <p class="ingredients">
@@ -622,7 +622,7 @@
 
                             <div class="col-lg-4 menu-item">
                                 <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
-                                        src="/templates/yummy/assets/img/menu/menu-item-6.png"
+                                        src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/menu/menu-item-6.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Laboriosam Direva</h4>
                                 <p class="ingredients">
@@ -675,7 +675,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-                                        <img src="/templates/yummy/assets/img/testimonials/testimonials-1.jpg"
+                                        <img src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/testimonials/testimonials-1.jpg"
                                             class="img-fluid testimonial-img" alt="">
                                     </div>
                                 </div>
@@ -704,7 +704,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-                                        <img src="/templates/yummy/assets/img/testimonials/testimonials-2.jpg"
+                                        <img src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/testimonials/testimonials-2.jpg"
                                             class="img-fluid testimonial-img" alt="">
                                     </div>
                                 </div>
@@ -733,7 +733,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-                                        <img src="/templates/yummy/assets/img/testimonials/testimonials-3.jpg"
+                                        <img src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/testimonials/testimonials-3.jpg"
                                             class="img-fluid testimonial-img" alt="">
                                     </div>
                                 </div>
@@ -762,7 +762,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-                                        <img src="/templates/yummy/assets/img/testimonials/testimonials-4.jpg"
+                                        <img src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/testimonials/testimonials-4.jpg"
                                             class="img-fluid testimonial-img" alt="">
                                     </div>
                                 </div>
@@ -789,7 +789,7 @@
                     <div class="swiper-wrapper">
 
                         <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-                            style="background-image: url(/templates/yummy/assets/img/events-1.jpg)">
+                            style="background-image: url(<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/events-1.jpg)">
                             <h3>Custom Parties</h3>
                             <div class="price align-self-start">$99</div>
                             <p class="description">
@@ -799,7 +799,7 @@
                         </div><!-- End Event item -->
 
                         <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-                            style="background-image: url(/templates/yummy/assets/img/events-2.jpg)">
+                            style="background-image: url(<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/events-2.jpg)">
                             <h3>Private Parties</h3>
                             <div class="price align-self-start">$289</div>
                             <p class="description">
@@ -809,7 +809,7 @@
                         </div><!-- End Event item -->
 
                         <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-                            style="background-image: url(/templates/yummy/assets/img/events-3.jpg)">
+                            style="background-image: url(<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/events-3.jpg)">
                             <h3>Birthday Parties</h3>
                             <div class="price align-self-start">$499</div>
                             <p class="description">
@@ -840,7 +840,7 @@
                         data-aos-delay="100">
                         <div class="chef-member">
                             <div class="member-img">
-                                <img src="/templates/yummy/assets/img/chefs/chefs-1.jpg" class="img-fluid"
+                                <img src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/chefs/chefs-1.jpg" class="img-fluid"
                                     alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
@@ -862,7 +862,7 @@
                         data-aos-delay="200">
                         <div class="chef-member">
                             <div class="member-img">
-                                <img src="/templates/yummy/assets/img/chefs/chefs-2.jpg" class="img-fluid"
+                                <img src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/chefs/chefs-2.jpg" class="img-fluid"
                                     alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
@@ -884,7 +884,7 @@
                         data-aos-delay="300">
                         <div class="chef-member">
                             <div class="member-img">
-                                <img src="/templates/yummy/assets/img/chefs/chefs-3.jpg" class="img-fluid"
+                                <img src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/chefs/chefs-3.jpg" class="img-fluid"
                                     alt="">
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter"></i></a>
@@ -918,7 +918,7 @@
 
                 <div class="row g-0">
 
-                    <div class="col-lg-4 reservation-img" style="background-image: url(/templates/yummy/assets/img/reservation.jpg);"
+                    <div class="col-lg-4 reservation-img" style="background-image: url(<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/reservation.jpg);"
                         data-aos="zoom-out" data-aos-delay="200"></div>
 
                     <div class="col-lg-8 d-flex align-items-center reservation-form-bg">
@@ -994,35 +994,35 @@
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="assets/img/gallery/gallery-1.jpg"><img
-                                    src="/templates/yummy/assets/img/gallery/gallery-1.jpg" class="img-fluid"
+                                    src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/gallery/gallery-1.jpg" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="assets/img/gallery/gallery-2.jpg"><img
-                                    src="/templates/yummy/assets/img/gallery/gallery-2.jpg" class="img-fluid"
+                                    src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/gallery/gallery-2.jpg" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="assets/img/gallery/gallery-3.jpg"><img
-                                    src="/templates/yummy/assets/img/gallery/gallery-3.jpg" class="img-fluid"
+                                    src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/gallery/gallery-3.jpg" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="assets/img/gallery/gallery-4.jpg"><img
-                                    src="/templates/yummy/assets/img/gallery/gallery-4.jpg" class="img-fluid"
+                                    src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/gallery/gallery-4.jpg" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="assets/img/gallery/gallery-5.jpg"><img
-                                    src="/templates/yummy/assets/img/gallery/gallery-5.jpg" class="img-fluid"
+                                    src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/gallery/gallery-5.jpg" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="assets/img/gallery/gallery-6.jpg"><img
-                                    src="/templates/yummy/assets/img/gallery/gallery-6.jpg" class="img-fluid"
+                                    src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/gallery/gallery-6.jpg" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="assets/img/gallery/gallery-7.jpg"><img
-                                    src="/templates/yummy/assets/img/gallery/gallery-7.jpg" class="img-fluid"
+                                    src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/gallery/gallery-7.jpg" class="img-fluid"
                                     alt=""></a></div>
                         <div class="swiper-slide"><a class="glightbox" data-gallery="images-gallery"
                                 href="assets/img/gallery/gallery-8.jpg"><img
-                                    src="/templates/yummy/assets/img/gallery/gallery-8.jpg" class="img-fluid"
+                                    src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/img/gallery/gallery-8.jpg" class="img-fluid"
                                     alt=""></a></div>
                     </div>
                     <div class="swiper-pagination"></div>
@@ -1194,15 +1194,15 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <div id="preloader"></div>
-    <script src="/templates/yummy/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="/templates/yummy/assets/vendor/aos/aos.js"></script>
-    <script src="/templates/yummy/assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="/templates/yummy/assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="/templates/yummy/assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="/templates/yummy/assets/vendor/php-email-form/validate.js"></script>
+    <script src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/aos/aos.js"></script>
+    <script src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/vendor/php-email-form/validate.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="/templates/yummy/assets/js/main.js"></script>
+    <script src="<?php echo $_SERVER['REQUEST_URI'];?>/templates/yummy/assets/js/main.js"></script>
 </body>
 
 </html>
