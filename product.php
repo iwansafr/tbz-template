@@ -59,11 +59,11 @@
     </header><!-- End Header -->
 
     <main id="main">
-        <section id="menu" class="menu">
+        <section id="menu" class="menu mt-5">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-header">
-                    <h2>Our Menu</h2>
+                    <h2>Our Product</h2>
                     <p>Check Our <span>TBZ Menu</span></p>
                 </div>
 
@@ -106,46 +106,46 @@
                         <div class="row gy-5">
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
-                                        src="templates/yummy/assets/img/menu/menu-item-1.png"
+                                <a href="images/accessory-pack.jpg" class="glightbox"><img
+                                        src="images/accessory-pack.jpg"
                                         class="menu-img img-fluid" alt=""></a>
-                                <h4>Magnam Tiste</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
+                                <h4>ACCESSORY PACK</h4>
+                                <!-- <p class="ingredients">
+                                    [4949]
+                                </p> -->
                                 <p class="price">
-                                    $5.95
+                                    [4949]
                                 </p>
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                        src="templates/yummy/assets/img/menu/menu-item-2.png"
+                                <a href="images/rbx-012-wired-edge-ribbon.jpg" class="glightbox"><img
+                                        src="images/rbx-012-wired-edge-ribbon.jpg"
                                         class="menu-img img-fluid" alt=""></a>
-                                <h4>Aut Luia</h4>
-                                <p class="ingredients">
+                                <h4>RBX 012 WIRED EDGE RIBBON</h4>
+                                <!-- <p class="ingredients">
                                     Lorem, deren, trataro, filede, nerada
-                                </p>
+                                </p> -->
                                 <p class="price">
-                                    $14.95
+                                    7277
                                 </p>
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
-                                        src="templates/yummy/assets/img/menu/menu-item-3.png"
+                                <a href="images/images3.jpg" class="glightbox"><img
+                                        src="images/images3.jpg"
                                         class="menu-img img-fluid" alt=""></a>
-                                <h4>Est Eligendi</h4>
-                                <p class="ingredients">
+                                <h4>PRINTED SATIN RIBBON CURLY BOW</h4>
+                                <!-- <p class="ingredients">
                                     Lorem, deren, trataro, filede, nerada
-                                </p>
+                                </p> -->
                                 <p class="price">
-                                    $8.95
+                                    [10703]
                                 </p>
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-4.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-4.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
@@ -158,7 +158,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-5.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-5.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
@@ -171,7 +171,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-6.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-6.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Laboriosam Direva</h4>
@@ -196,7 +196,7 @@
                         <div class="row gy-5">
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-1.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-1.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Magnam Tiste</h4>
@@ -209,7 +209,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-2.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-2.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Aut Luia</h4>
@@ -222,7 +222,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-3.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-3.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Est Eligendi</h4>
@@ -235,7 +235,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-4.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-4.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
@@ -248,7 +248,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-5.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-5.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
@@ -261,7 +261,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-6.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-6.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Laboriosam Direva</h4>
@@ -286,7 +286,7 @@
                         <div class="row gy-5">
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-1.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-1.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Magnam Tiste</h4>
@@ -299,7 +299,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-2.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-2.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Aut Luia</h4>
@@ -312,7 +312,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-3.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-3.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Est Eligendi</h4>
@@ -325,7 +325,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-4.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-4.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
@@ -338,7 +338,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-5.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-5.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
@@ -351,7 +351,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-6.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-6.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Laboriosam Direva</h4>
@@ -376,7 +376,7 @@
                         <div class="row gy-5">
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-1.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-1.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Magnam Tiste</h4>
@@ -389,7 +389,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-2.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-2.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Aut Luia</h4>
@@ -402,7 +402,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-3.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-3.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Est Eligendi</h4>
@@ -415,7 +415,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-4.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-4.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
@@ -428,7 +428,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-5.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-5.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Eos Luibusdam</h4>
@@ -441,7 +441,7 @@
                             </div><!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
+                                <a href="templates/yummy/assets/img/menu/menu-item-6.png" class="glightbox"><img
                                         src="templates/yummy/assets/img/menu/menu-item-6.png"
                                         class="menu-img img-fluid" alt=""></a>
                                 <h4>Laboriosam Direva</h4>
