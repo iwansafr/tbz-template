@@ -8,10 +8,8 @@
     <title>TBZ INDUSTRIAL INDONESIA- Index</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-
-    <!-- Favicons -->
     <?php
-    if($_SERVER['REQUEST_URI'] == '/'){
+    if($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php'){
         $requestUri = '';
     }else{
         $requestUri = $_SERVER['REQUEST_URI'];
@@ -59,7 +57,7 @@
                 </ul>
             </nav><!-- .navbar -->
 
-            <a class="btn-book-a-table" href="#book-a-table">Book a Table</a>
+            <a class="btn-book-a-table" href="#book-a-table">Order</a>
             <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
             <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
 
@@ -76,13 +74,13 @@
                     <p data-aos="fade-up" data-aos-delay="100">PT TBZ INDUSTRIAL INDONESIA</p>
                     <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
                         <a href="product.php" class="btn-book-a-table">Our Product</a>
-                        <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ"
+                        <a href="https://www.youtube.com/watch?v=JKHeylo1Sh8"
                             class="glightbox btn-watch-video d-flex align-items-center"><i
                                 class="bi bi-play-circle"></i><span>Watch Video</span></a>
                     </div>
                 </div>
                 <div class="col-lg-5 order-1 order-lg-2 text-center text-lg-start">
-                    <img src="<?php echo $requestUri;?>/templates/yummy/assets/img/hero-img.png" class="img-fluid" alt=""
+                    <img src="<?php echo $requestUri;?>/images/thumbnail-video.png" class="img-fluid" alt=""
                         data-aos="zoom-out" data-aos-delay="300">
                 </div>
             </div>
@@ -102,7 +100,7 @@
 
                 <div class="row gy-4">
                     <div class="col-lg-7 position-relative about-img"
-                        style="background-image: url(<?php echo $requestUri;?>/templates/yummy/assets/img/about.jpg) ;" data-aos="fade-up" data-aos-delay="150">
+                        style="background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2oAz6EzSjKybEuRXPOUn7gDyFA7d9PD_A64MYW9XLNsTLJcv9J1laDIjLPBLdRNxy1-Vs_ThNxPSjYAWYEP3szx12VG3wKXSuytJXX90qD64TkpGQvWZ8N-TteQxyr3NTyPpKDd02d4nPt9HPLjebyiNLobPc7cRcFtgAyVzUHtYgBL_NfuP8Sni-Iw/w400-h225/IMG-20220609-WA0009.jpg);background-repeat:no-repeat; background-size: cover;" data-aos="fade-up" data-aos-delay="150">
                         <div class="call-us position-absolute">
                             <h4>Book a Table</h4>
                             <p>+1 5589 55488 55</p>
@@ -111,29 +109,37 @@
                     <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300">
                         <div class="content ps-0 ps-lg-5">
                             <p class="fst-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore
-                                magna aliqua.
+                            Specialized in designing and producing different kinds of  Bows and Ribbons, which is a limited company that  the trade is integrative with production. The company introduces the advanced manufactory facilities, perfect management system, strict quality control ,and holding professional technologist,also good management team. Established business relationships with hundreds of customers all over the world, especially in EUROPE and NORTH America. Such as International Greetings /CARD FACTORY/EUROWRAP /Walmart/Berwick/Dollar Tree/Dollar General/ Impack.
                             </p>
+                            <h5>Our Vision</h5>
+                            <p class="fst-italic">
+                            Our vision is to be “The Leading Integrated Manufacturer of gifts and paper products in Indonesia with a Global Reach”.
+                            </p>
+                            <h5>Our Mission</h5>
                             <ul>
-                                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat.</li>
-                                <li><i class="bi bi-check2-all"></i> Duis aute irure dolor in reprehenderit in
-                                    voluptate velit.</li>
-                                <li><i class="bi bi-check2-all"></i> Ullamco laboris nisi ut aliquip ex ea commodo
-                                    consequat. Duis aute irure dolor in reprehenderit in voluptate trideta
-                                    storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                            </ul>
-                            <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                                reprehenderit in voluptate
-                                velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                                proident
-                            </p>
+                                <li>
+                                    <i class="bi bi-check2-all"></i>To be an advanced company driven by technology and supported by creative professionals.
+                                </li>
+                                <li>
+                                    <i class="bi bi-check2-all"></i>To become an excellent partner for anyone in our business,be it with customers and suppliers.
+                                </li>
+                                <li>
+                                    <i class="bi bi-check2-all"></i>To become an innovative company, with market orientation and international standardization.
+                                </li>
+                                <li>
+                                    <i class="bi bi-check2-all"></i>To make Creativity, Productivity and Quality a way of life, uplifting our core values
+                                </li>
+                                <li>
+                                    <i class="bi bi-check2-all"></i>To become an excellent place for work and creativity.
+                                </li>
+                                <li>
+                                    <i class="bi bi-check2-all"></i>Efficient and Profitable.
+                                </li>
 
+                            </ul>
                             <div class="position-relative mt-4">
-                                <img src="<?php echo $requestUri;?>/templates/yummy/assets/img/about-2.jpg" class="img-fluid" alt="">
-                                <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn"></a>
+                                <img src="<?php echo $requestUri;?>/images/thumbnail-video.png" class="img-fluid" alt="">
+                                <a href="https://www.youtube.com/watch?v=JKHeylo1Sh8" class="glightbox play-btn"></a>
                             </div>
                         </div>
                     </div>
@@ -244,408 +250,7 @@
             </div>
         </section><!-- End Stats Counter Section -->
 
-        <!-- ======= Menu Section ======= -->
-        <section id="menu" class="menu">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-header">
-                    <h2>Our Menu</h2>
-                    <p>Check Our <span>TBZ Menu</span></p>
-                </div>
-
-                <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="200">
-
-                    <li class="nav-item">
-                        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
-                            <h4>Starters</h4>
-                        </a>
-                    </li><!-- End tab nav item -->
-
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
-                            <h4>Breakfast</h4>
-                        </a><!-- End tab nav item -->
-
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
-                            <h4>Lunch</h4>
-                        </a>
-                    </li><!-- End tab nav item -->
-
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
-                            <h4>Dinner</h4>
-                        </a>
-                    </li><!-- End tab nav item -->
-
-                </ul>
-
-                <div class="tab-content" data-aos="fade-up" data-aos-delay="300">
-
-                    <div class="tab-pane fade active show" id="menu-starters">
-
-                        <div class="tab-header text-center">
-                            <p>Menu</p>
-                            <h3>Starters</h3>
-                        </div>
-
-                        <div class="row gy-5">
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-1.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Magnam Tiste</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $5.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-2.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Aut Luia</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $14.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-3.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Est Eligendi</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $8.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-4.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Eos Luibusdam</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $12.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-5.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Eos Luibusdam</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $12.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-6.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Laboriosam Direva</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $9.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                        </div>
-                    </div><!-- End Starter Menu Content -->
-
-                    <div class="tab-pane fade" id="menu-breakfast">
-
-                        <div class="tab-header text-center">
-                            <p>Menu</p>
-                            <h3>Breakfast</h3>
-                        </div>
-
-                        <div class="row gy-5">
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-1.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Magnam Tiste</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $5.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-2.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Aut Luia</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $14.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-3.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Est Eligendi</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $8.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-4.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Eos Luibusdam</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $12.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-5.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Eos Luibusdam</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $12.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-6.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Laboriosam Direva</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $9.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                        </div>
-                    </div><!-- End Breakfast Menu Content -->
-
-                    <div class="tab-pane fade" id="menu-lunch">
-
-                        <div class="tab-header text-center">
-                            <p>Menu</p>
-                            <h3>Lunch</h3>
-                        </div>
-
-                        <div class="row gy-5">
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-1.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Magnam Tiste</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $5.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-2.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Aut Luia</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $14.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-3.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Est Eligendi</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $8.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-4.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Eos Luibusdam</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $12.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-5.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Eos Luibusdam</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $12.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-6.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Laboriosam Direva</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $9.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                        </div>
-                    </div><!-- End Lunch Menu Content -->
-
-                    <div class="tab-pane fade" id="menu-dinner">
-
-                        <div class="tab-header text-center">
-                            <p>Menu</p>
-                            <h3>Dinner</h3>
-                        </div>
-
-                        <div class="row gy-5">
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-1.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-1.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Magnam Tiste</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $5.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-2.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-2.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Aut Luia</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $14.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-3.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-3.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Est Eligendi</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $8.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-4.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-4.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Eos Luibusdam</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $12.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-5.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-5.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Eos Luibusdam</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $12.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="assets/img/menu/menu-item-6.png" class="glightbox"><img
-                                        src="<?php echo $requestUri;?>/templates/yummy/assets/img/menu/menu-item-6.png"
-                                        class="menu-img img-fluid" alt=""></a>
-                                <h4>Laboriosam Direva</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">
-                                    $9.95
-                                </p>
-                            </div><!-- Menu Item -->
-
-                        </div>
-                    </div><!-- End Dinner Menu Content -->
-
-                </div>
-
-            </div>
-        </section><!-- End Menu Section -->
+        <?php include 'product-block.php';?>
 
         <!-- ======= Testimonials Section ======= -->
         <section id="testimonials" class="testimonials section-bg">
