@@ -52,7 +52,6 @@
                     <li><a href="#hero">Home</a></li>
                     <li><a href="#about">About Us</a></li>
                     <li><a href="#menu">Products</a></li>
-                    <li><a href="#events">Awards</a></li>
                     <li><a href="#contact">Contact Us</a></li>
                 </ul>
             </nav><!-- .navbar -->
@@ -755,7 +754,7 @@
                     <div>
                         <h4>Reservations</h4>
                         <p>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                            <strong>Phone:</strong> 0291 7560063<br>
                             <strong>Email:</strong> info@example.com<br>
                         </p>
                     </div>
